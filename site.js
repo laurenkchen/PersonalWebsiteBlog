@@ -65,7 +65,7 @@ function coffee(){
 
 
 
-window.onload = () => {
+document.addEventListener('DOMContentLoaded', () => {
     let xPos = 0;
     let currentRotation = 0;
 
@@ -112,4 +112,4 @@ window.onload = () => {
 
         xPos = event.clientX;
     }
-};
+});
